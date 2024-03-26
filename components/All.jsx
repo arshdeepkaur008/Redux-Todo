@@ -171,7 +171,7 @@ export default function All() {
         <GestureHandlerRootView style={{flex:1}}>
             <View style={styles.container}>
                 <View style={styles.header}>
-                    <Text style={styles.head}>My Tasks</Text>
+                    <Text style={styles.head}>My Task List</Text>
                     <TouchableOpacity onPress={clear} style={styles.button}>
                         <Text style={styles.buttonText}>Clear All</Text>
                     </TouchableOpacity>
